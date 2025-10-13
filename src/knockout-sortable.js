@@ -1,7 +1,7 @@
 ;(function(factory) {
     if (typeof define === "function" && define.amd) {
         // AMD anonymous module
-        define(["ko", "jquery", "jqueryui/ui/widgets/sortable", "jqueryui/ui/widgets/draggable", "jquery-ui/ui/widgets/droppable"], factory);
+        define(["ko", "jquery", "jqueryui/ui/widgets/sortable", "jqueryui/ui/widgets/draggable", "jqueryui/ui/widgets/droppable"], factory);
     } else if (typeof require === "function" && typeof exports === "object" && typeof module === "object") {
         // CommonJS module
         var ko = require("ko"),
