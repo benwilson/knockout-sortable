@@ -285,7 +285,7 @@
                                 }
 
                                 //rendering is handled by manipulating the observableArray; ignore dropped element
-                                dataSet(el, ITEMKEY, null);
+                                //dataSet(el, ITEMKEY, null);
                             }
                             else { //employ the strategy of moving items
                                 if (targetIndex >= 0) {
